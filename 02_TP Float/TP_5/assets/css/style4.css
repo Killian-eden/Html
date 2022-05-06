@@ -1,0 +1,43 @@
+.zonning1{
+    background-color: #DFDFE0;
+    height: 968px;
+    width: 70%;
+    margin: 0 auto;
+}
+.haut{
+    background-color: #F6F48D;
+    height: 700px;
+    width: 75%;
+    margin: 0 auto;
+}
+.z1{
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+.bas{
+    background-color: darkblue;
+    height: 100px;
+}
+.nav{
+    background-color: crimson; 
+    width: 99.8%;
+    margin: 0 auto;
+    height: 76%;
+    margin-top: 5%;
+}
+.bande{
+    background-color: blue;
+    color: blue;
+    margin-top: 1%;
+}
+.blanc{
+    background-color: white;
+    color: white;
+    height: 100%;
+}
+.fin{
+    background-color: teal;
+    height: 84%;
+    margin: 2%;
+    margin-top: 0;
+}

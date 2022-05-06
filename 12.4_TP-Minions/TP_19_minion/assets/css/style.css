@@ -1,0 +1,19 @@
+td{
+    width: 100px;
+    height: 100px;
+}
+.jaune{
+    background-color: yellow;
+}
+table{
+    border-collapse: collapse;
+}
+.gris{
+    background-color: grey;
+}
+.noir{
+    background-color: black;
+}
+.bleu{
+    background-color: blue;
+}

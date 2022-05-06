@@ -1,0 +1,293 @@
+header{
+    background-color: #F2F2F2;
+}
+body{
+    background-color: #242424;
+}
+.vertical{
+    background: linear-gradient(#F2F2F2, #F7D07E);
+    height: 100px;
+    width: 3px;
+    margin-left: 32%;
+    position: relative;
+    top: 53.5px;
+    float: left;
+}
+.p1{
+    display: inline-block;
+    width: 50%;
+}
+.imgt img{
+    width: 234px;
+}
+.imgt p{
+    margin: 0;
+}
+.imgt{
+    float: left;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.couleur{
+    color:#EA9F05 ;
+}
+.p2{
+    display: inline-block;
+    margin-left: 3%;
+}
+.compte *{
+    float: left;
+}
+#contour{
+    border: 1px solid black;
+    border-right: none;
+}
+#contour img{
+    margin: 10px;
+    margin-left: 50px;
+}
+.compte p{
+    margin: 10px;
+    margin-top: 20px;
+}
+#contour2{
+    border: 1px solid black;
+    border-left: none;
+}
+#contour2 img{
+    margin: 9.5px;
+    margin-left: 50px;
+}
+h2{
+    margin: 0;
+    float: right;
+    font-weight: normal;
+}
+nav p {
+    margin: 0;
+    float: left;
+}
+.verticalnav{
+    background: linear-gradient(#F2F2F2, lightgrey);
+    height: 50px;
+    width: 1.5px;
+    float: left;
+    position: relative;
+    top: 17px;
+}
+#nav1{
+    float: left;
+}
+#nav1 p{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 23%;
+}
+#nav2{
+    float: left;
+}
+#nav2 p{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 32%;
+}
+#nav3{
+    float: left;
+}
+#nav3 p{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 27%;
+}
+main{
+    width: 68%;
+    margin: 0 auto;
+    margin-top: 1%;
+}
+#tout{
+    background-color: #FFFFFF;
+}
+#img1{
+    width: 30%;
+    margin-left: 15%;
+    margin-top: 0;
+    padding-top: 3%;
+    margin-right: 0;
+    float: left;
+}
+#img1 img{
+    width: 100%;
+    box-shadow: 0px 0px 20px 1px black;
+}
+#imgh{
+    box-shadow: 0px 9px 7px 0px black;
+    width: 100%;
+}
+
+.reduction{
+    float: right;
+    color: #EA9F05;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 5px solid rgb(39, 36, 36);
+    background-color: rgb(54, 54, 54);
+    border-radius: 5px;
+    box-shadow: black 15px 15px 15px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.pos1{
+    position: relative;
+    bottom: 455px;
+    left: 245px;
+    font-size: 50px;
+    margin: 0;
+}
+.centrer{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    bottom: 35px;
+}
+.voir{
+    margin: 0;
+    background-color: black;
+    color: white;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 25px;  
+}
+.barre{
+    text-decoration: line-through;
+    float: right;
+    margin: 0;
+    margin-left: 45px;
+    font-size: 20px;  
+
+}
+.prix{
+    position: relative;
+    bottom: 30px;
+}
+.vprix{
+    color: orange;
+    font-size: 25px;
+    float: right;
+    margin: 0;
+    margin-left: 25px;
+
+    font-size: 30px;  
+
+}
+.horizontale{
+    background: linear-gradient( to left,black,white);
+    float: right;
+    height: 3px;
+    width: 215px;
+    position: relative;
+    bottom: 11px;
+}
+#img2{
+    width: 30%;
+    margin-left: 0;
+    margin-top: 0;
+    padding-top: 3%;
+    margin-right: 15%;
+    float: right;
+}
+#img2 img{
+    width: 100%;
+    box-shadow: 0px 0px 20px 1px black;
+}
+.trait{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.fin{
+    background-color: white;
+    width: 34% ;
+    margin: 0 auto;
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    position: relative;
+    z-index: 1;
+}
+.fin p{
+    margin: 0;
+    float: left;
+    font-size: 25px;
+}
+.prond{
+    width: 10px;
+    height: 10px;   
+    border-radius: 50%;
+    background-color: lightgrey;
+    margin: 16px;
+    float: left;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.tout{
+    color: white;
+    width: 15%;
+    display: inline-block;
+    margin-left: 100px;
+}
+.tout img{
+    display: block;
+    margin: 0 auto;
+}
+.tout p {
+    text-align: center;
+}
+.footer{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+hr{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.reseau{
+    text-align: center;
+}
+.reseau img:nth-child(2){
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.footer:last-child{
+    text-align: center;
+    color: white;
+}
+footer{
+    position: relative;
+    bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clear{
+    clear: both;
+}

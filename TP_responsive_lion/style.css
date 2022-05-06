@@ -1,0 +1,101 @@
+/*
+    Tablette : @media screen and (min-width: 776px) and (max-width: 991px)
+    Ordinateur : @media screen and (min-width: 992px) and (max-width: 1199px)
+    Grand écran : @media screen and (min-width: 1200px)
+*/
+body{
+    width: 70vw;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+header, footer{
+    background-color: pink;
+    width: 100%;
+}
+footer{
+    margin-top: 5%;
+}
+p:first-of-type{
+    margin: 0;
+    height: 15vw;
+
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    background-color: violet;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 5%;
+}
+li{
+    list-style-type: none;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+div{
+    width: 90%;
+    height: 30vw;
+}
+.div1{
+    background-color: #40A798;
+}
+.div2{
+    background-color: red;
+}
+.div3{
+    background-color: #1C5F81;
+}
+.div4{
+    background-color: #3C65F5;
+}
+/*Tablette*/
+@media screen and (min-width: 776px) and (max-width: 991px){
+    header, footer{background-color: #9b3513;}
+    ul{background-color: #2cb727;}
+    main{flex-direction: row;}
+    div{width: 47%; height: 30vw;}
+    .div1{background-color: #7021c7;}
+    .div2{background-color: #aba529;}
+    .div3{background-color: #bb1f8c; margin-top: 1%;}
+    .div4{background-color: #377c33; margin-top: 1%;}
+}
+/*ordi*/
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    header, footer{background-color: #2a8c3c;}
+    ul{background-color: #2b3f88;}
+    main{flex-direction: row;}
+    div{width: 47%; height: 30vw;}
+    .div1{background-color: #18965c;}
+    .div2{background-color: #58af76;}
+    .div3{background-color: #bb431f; margin-top: 1%;}
+    .div4{background-color: #381069; margin-top: 1%;}
+}
+/*grand ecran*/
+@media screen and (min-width: 1200px) and (max-width: 1500px){
+    header, footer{background-color: #bbd70d;}
+    ul{background-color: #21982b;}
+    main{flex-direction: row;}
+    div{width: 47%; height: 30vw; border-radius: 100%}
+    .div1{background-image: url("https://www.conservation-nature.fr/wp-content/uploads/2021/03/lion-600x450.jpg");}
+    .div2{background-color: #13335d;}
+    .div3{background-color: #6b2f61; margin-top: 1%;}
+    .div4{background-color: #5d3232; margin-top: 1%;}
+}
+/*plus grand ecran*/
+@media screen and (min-width: 1500px){
+    header, footer{background-color: #6e6d41;}
+    ul{background-color: #4a8867;}
+    main{flex-direction: row;}
+    div{width: 47%; height: 30vw;}
+    .div1{background: linear-gradient(to right, blue, pink);}
+    .div2{background-color: #6f5a7a;}
+    .div3{background-color: #3b5940; margin-top: 1%;}
+    .div4{background: linear-gradient(to left, blue, pink); margin-top: 1%;}
+}

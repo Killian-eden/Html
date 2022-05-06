@@ -1,0 +1,136 @@
+
+.grand{
+    text-transform: uppercase;
+}
+header *{
+    font-family: 'Cormorant Garamond';
+    margin: 0;
+    text-align: center;
+}
+header{
+    margin-bottom: 150px;
+}
+h1{
+    font-size: 50px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 40%;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+#premier p{
+    float: right;
+}
+#premier{
+    width: 60%;
+    height: 555px;
+    text-align: end;
+    margin: 0 auto;
+    background-image: url(../img/plate.jpg);
+    background-size: 555px;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+}
+#italic{
+    font-family: 'Cormorant Garamond';
+    font-style: italic;
+    font-weight: normal;
+    float: right;
+    margin: 0;
+    padding-top: 210px;
+    margin-right: 180px;
+    border-bottom: 1px solid black;
+    width: 50%;
+    text-align: right;
+
+    
+}
+.soustitre{
+    font-family: 'Cormorant Garamond';
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+    margin-right: 180px;
+    width: 50%;
+    text-align: right;
+}
+main{
+    width: 60%;
+    margin: 0 auto;
+}
+.contenus{
+    margin: 0;
+}
+.gauche{
+    width: 50%;
+    float: left;
+}
+.gauche img{
+    width: 100%;
+    display: flex;
+}
+.gauche h2, .gauche p{
+    width: 90%;
+    margin: 0 auto;
+}
+.droite{
+    width: 50%;
+    float: right;
+}
+.droite img{
+    width: 100%;
+    display: flex;
+
+}
+.droite h2, .droite p{
+    width: 90%;
+    margin: 0 auto;
+}
+.contenus h2{
+    font-size: 50px;
+    border-bottom: 1px solid black;
+    
+}
+.note{
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    width: 34%;
+    margin-left: 5%;
+}
+footer *{
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+h4{
+    font-size: 1em;
+    text-transform: uppercase;
+    position: relative;
+    top: 64px;
+}
+.fin{
+    text-transform: uppercase;
+    font-size: 2em;
+    border-top: 2px solid black;
+    width: 20%;
+    border-bottom: 2px solid black;
+    margin-top: 5px;
+}
+.maj{
+    text-transform: uppercase;
+}
+.italic{
+    font-family: 'Cormorant Garamond';
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+
+
+.clear{
+    clear: both;
+}

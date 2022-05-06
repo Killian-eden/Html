@@ -1,0 +1,40 @@
+:root{
+    --font: 1.5em;
+    --btn-color: lightgray;
+    --btn-width: 95%;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5%;
+    row-gap: 1%;
+    padding: 5%;
+    background-color: #FCFCFC;
+}
+img{
+    width: 100%;
+}
+p{
+    font-size: var(--font);
+}
+.bold{
+    font-weight: bold;
+}
+p, h1, h2{
+    margin-left: 5%;
+}
+button{
+    border: none;
+    background-color: var(--btn-color);
+    width: var(--btn-width);
+    display: block;
+    margin: 0 auto;
+    padding: 5% 0 5% 0;
+}
+article:first-of-type{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+article{
+    background-color: white;
+}

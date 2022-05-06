@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+}
+table{
+    border: 2px solid #96B7F2;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+.bgc{
+    background-color: #EFF6FF;
+}
+.border{
+    border: 2px solid #96B7F2;
+}
+.point{
+    border-left: 2px dotted #96B7F2;
+}
+.top{
+    border-top: 2px solid #96B7F2;
+    border-bottom: 2px dotted #96B7F2;
+}
+.bottom{
+    border-bottom: 2px solid #96B7F2;
+}

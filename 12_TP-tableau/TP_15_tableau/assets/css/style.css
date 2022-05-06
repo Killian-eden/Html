@@ -1,0 +1,33 @@
+header table{
+    margin: auto;
+    width: 42%;
+    display: block;
+}
+td.conseil{
+    color: white;
+    font-size: 92px;
+    text-align: center;
+}
+header{
+    background-color: #0056AD;
+}
+.jaune{
+    color: #DAC937;
+}
+img.position{
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+}
+h2{
+    color: blue;
+    text-transform: uppercase;
+    font-size: 3em;
+}
+p{
+    font-size: 2em;
+}
+body table{
+    width: 70%;
+    margin: 0 auto;
+}

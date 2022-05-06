@@ -1,0 +1,198 @@
+body{
+    width: 90%;
+    margin: 0 auto;
+}
+#header{
+    background-image: url(../img/building2.jpg);
+    height: 100vw;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+h1{
+    color: white;
+    text-align: center;
+    padding-top: 50%;
+    font-family: Roboto Condensed, Open Sans, sans-serif;
+    text-transform: uppercase;
+}
+.bordure{
+    border: 10px solid #F2EAE1;
+    width: 100%;
+}
+.bordure p:last-child{margin-bottom: 35%;}
+.bordure p, .bordure img{margin-left: 5%;}
+.bordure img:first-child{
+    margin-top: 35%;
+}
+p{
+    font-family: Roboto Condensed, Open Sans, sans-serif;
+}
+#art1 img{
+    width: 10%;
+}
+#art1 p:last-child{
+    font-style: italic;
+    color: #585c62;
+}
+#art2{
+    width: 100%;
+    background-color: #F2EAE1;
+    text-align: center;
+}
+#art2 p:first-child{
+    font-weight: bold;
+    padding-top: 35%;
+}
+#art2 p{
+    font-size: 2em;
+}
+#art2 p:last-child{
+    padding-bottom: 35%;
+}
+.art3{
+    width: 49%;
+}
+#art4{
+    width: 100%;
+}
+#art4 img{
+    width: 100%;
+    height: 100%;
+}
+#art5{
+    width: 100%;
+    height: 10vw;
+    background-color: #5F9300;
+    padding-top: 15%;
+    padding-bottom: 15%;
+
+}
+#art5 p{
+    color: white;
+    margin: 0;
+    text-align: center;
+    font-size: 1.5em;
+}
+#art5 p:last-child{
+    font-weight: bold;
+    font-size: 2em;
+}
+#art6 p:first-child{
+    color: #5F9300;
+    margin-top: 34%;
+    font-size: 1.5em;
+}
+#art6 p{
+    font-size: 1em;
+}
+.art7{
+    width: 49%;
+    margin-top: 5%;
+}
+
+#art8{
+    text-transform: uppercase;
+    background-color: #F2EAE1;
+    height: 50vw;
+    padding-top: 50%;
+    width: 100%;
+}
+#art8 p{
+    color: #5F9300;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2em;
+}
+#art9 img{
+    width: 10%;
+}
+#art9 p:last-child{
+    font-style: italic;
+    color: #585c62;
+}
+footer{
+    text-align: center;
+}
+span{
+    color: #5F9300;
+}
+footer img{
+    width: 10vw;
+    height: 10vw;
+}
+article{
+    margin-top: 5%;
+}
+.clear{
+    clear: both;
+}
+.tabletmap{
+    width: 100%;
+}
+/* Tablette */
+@media screen and (min-width: 776px) and (max-width: 991px){
+    #header{width: 43vw; height: 49vw;}
+    #art1{width: 41vw;}
+    #art2{width: 22%; height: 20vw; float: left}
+    #art2 p:first-child, #art2 p:last-child{font-size: 1em; padding: 0}
+    #art2 p:first-child{margin-top: 35%}
+    .art3:first-of-type{
+        width: 22%;
+        height: 20vw;
+        margin-top: 5%;
+        float: left;
+        margin-left: 4.5%;
+    }
+    .art3:last-of-type{float: right; margin-top: 5%}
+    #art4{width: 43vw; height: 21.5vw; margin-top: 30%;}
+    #art5{width: 49%}
+    #art6{order: 4;width: 46.5%;}
+    .art7{order: 4; width: 49%;}
+    .art7:first-of-type{order: 3}
+    #art8{width: 49%;height: 36.5vw; padding: 0; order: 1;}
+    #art8 p{margin-top: 30%}
+    #art9{order: 4; width: 46.5%}
+    footer p{float: left}
+    footer p:first-of-type::after{content: " | "}
+    footer div{float: right;}
+    footer img{ width: 5vw; height: 5vw}
+}
+/*Ordi*/
+@media screen and (min-width: 992px){
+    main{justify-content: normal}
+    #header{width: 43vw; height: 49vw; margin-right: 2%}
+    .bordure img:first-child{margin-top: 20%}
+    #art1{width: 20vw; height: 20vw; margin-top: 35.5%; margin-right: 24.5%}
+    #art2{width: 24%; height: 20vw; float: left}
+    #art2 p:first-child, #art2 p:last-child{font-size: 1em; padding: 0}
+    #art2 p:first-of-type{margin-top: 35%}
+    .art3:first-of-type{
+        width: 24%;
+        height: 20vw;
+        margin-top: 5%;
+        float: left;
+        margin-left: 1%;
+    }
+    .art3:last-of-type{float: right; margin-top: 5%; height: 91.5%}
+    #art4{width: 24%; height: 21.5vw; float: left; margin-left: 25%}
+    #art5{width: 49%; margin-left: 51%}
+    #art6{order: 4;width: 20vw; height: 18vw}
+    #art6 p:first-of-type{
+        margin-top: 16px;}
+    .art7{order: 4; width: 22%; height: 25%}
+    .art7:first-of-type{order: 3; margin-left: 2%; margin-right: 2%}
+    #art8{width: 25%;height: 19.5vw; padding: 0; order: 1; margin-left: 24%; }
+    #art8 p{margin-top: 30%}
+    #art9{order: 4; width: 21vw; height: 18vw; margin-left: 2%;}
+    #art9 img{ margin-top: 15%}
+    footer p{float: left}
+    footer p:first-of-type::after{content: " | "}
+    footer div{float: right;}
+    footer img{ width: 5vw; height: 5vw}
+}

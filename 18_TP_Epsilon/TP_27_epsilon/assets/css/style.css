@@ -1,0 +1,238 @@
+header{
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    padding-bottom: 5%;
+    padding-top: 10%;
+}
+body{
+    background-color: #f4f4f4;
+}
+h1{
+    color: white;
+    font-family: 'Pacifico', cursive;
+    margin: 0;
+    font-size: 10em;
+    text-align: center;
+}
+header div{
+    width: 40%;
+    margin: 0 auto;
+}
+header h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 100;
+    text-align: center;
+    font-size: 3em;
+}
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+h3{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: #6F6F6F;
+    font-size: 3em;
+    text-align: center;
+    font-weight: 100;
+}
+h4{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: #6F6F6F;
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: 100;
+    margin: 0;
+}
+#hrheader{
+    width: 100%;
+    height: 10px;
+    background-color: white;
+    margin-top: 30px;
+}
+.dotted{
+    text-decoration: underline dotted;
+}
+#diamond{
+    background-color: white;
+    margin-top: 5%;
+    padding-top: 10%;
+    padding-bottom: 100px;
+}
+#rond{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    border: 5px solid #6F6F6F;
+    margin: 0 auto;
+}
+#gem{
+    font-size: 6em;
+    margin-top: 26%;
+    margin-left: 21%;
+    color: #6F6F6F;
+}
+.clear{
+    clear: both;
+}
+.text{
+    font-size: 2em;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #b1a5a5;
+}
+
+.btn p{
+    margin: 0;
+}
+.btn:hover{
+    transition: 2s;
+    border-color: #504d4d;
+    color: #504d4d;
+}
+.art{
+    width: 49%;
+    float: left;
+}
+.artimg{
+    width: 100%;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#montagne1, #montagne2, #montagne3, #montagne4{
+    text-transform: uppercase;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 95px;
+    padding-bottom: 95px;
+}
+#montagne1{
+    background-image: url(../img/pic01.jpg);
+}
+#montagne2{
+    background-image: url(../img/pic02.jpg);
+}
+#montagne3{
+    background-image: url(../img/pic03.jpg);
+}
+#montagne4{
+    background-image: url(../img/pic04.jpg);
+}
+#montagne1:hover, #montagne2:hover, #montagne3:hover, #montagne4:hover{
+    transition: 1s;
+    transform: scale(1.5) translate(2px);
+}
+.sousart{
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.sousarttext{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 77%;
+    margin: 0 auto;
+}
+.artall{
+    display: flex;
+    justify-content: space-between;
+}
+#lotofimg .artall:first-of-type{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+#textrandom{
+    margin-top: 150px;
+}
+#left{
+    text-align: left;
+}
+#findus{
+    background-color: white;
+    border-radius: 25px;
+    padding: 50px;
+    margin-top: 100px;
+}
+#findus p{
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #b1a5a5;
+
+}
+#partleft{
+    width: 60%;
+    float: left;
+}
+.space{
+    margin-top: 50px;
+}
+#partright{
+    width: 40%;
+    float: left;
+    padding-right: 150px;
+}
+#partright input, #partright textarea, #partright select{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    margin-bottom: 15px;
+}
+button{
+    background-color: white;
+}
+.btn{
+    text-transform: uppercase;
+    color: #6F6F6F;
+    border: 5px solid #6F6F6F;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+.btnsup{
+    width: 45%;
+    font-size: 15px;
+    margin: 0;
+    margin-left: 28%;
+}
+#changement{
+    width: 10%;
+    height: 5px;
+    background-color: #6F6F6F;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+#reseaux{
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+    font-size: 2em;
+    margin: 0 auto;
+    margin-top: 150px;
+    color: #8a7979;
+}
+p#end{
+    color: #8a7979;
+    text-align: center;
+    margin-top: 50px;
+}

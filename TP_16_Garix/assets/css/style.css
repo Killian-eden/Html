@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+}
+thead th{
+    border: 5px solid blue;
+    color: white;
+    font-size: 2em;
+}
+table{
+    border-collapse: collapse;
+    border: 2px solid grey;
+    width: 60%;
+    margin: 0 auto;
+
+}
+.grey{
+    background-color: grey;
+}
+.blue{
+    background-color: blue;
+}
+tbody{
+    text-align: center;
+    font-size: 1.5em;
+}
+tbody .bottom{
+    border-bottom: 3px dotted lightgrey;
+}
+#maj{
+    text-transform: uppercase;
+}
+tfoot{
+    color: white;
+    font-size: 2em;
+}
+.grey2{
+    background-color: lightgrey;
+}

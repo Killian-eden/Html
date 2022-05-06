@@ -1,0 +1,29 @@
+td{
+    width: 100px;
+    height: 100px;
+}
+table{
+    border-collapse: collapse;
+}
+
+.noir{
+    background-color: black;
+}
+.marron{
+    background-color: rgb(53, 35, 9);
+}
+.marronclair{
+    background-color: rgb(80, 59, 20);
+}
+.beige{
+ background-color: rgb(216, 187, 133);
+}
+.beigefonce{
+    background-color: rgb(175, 139, 72);
+}
+.vert{
+    background-color: green;
+}
+.jaune{
+    background-color: yellow;
+}

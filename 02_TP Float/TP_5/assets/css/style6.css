@@ -1,0 +1,96 @@
+
+
+
+.zonning1{
+    background-color: #DFDFE0;
+    height: 968px;
+    width: 70%;
+    margin: 0 auto;
+}
+.haut1{
+    background-color: #F6F48D;    
+    width: 25%;
+    height: 100px;
+    float: left;
+    
+}
+.z1{
+    margin-top: 6%;
+    margin-bottom: 6%;
+    width: 70%;
+    margin: 0 auto;
+}
+.haut2{
+    background-color: #90E177;
+    width: 50%;
+    float: left;
+    height: 100px;
+
+}
+.haut3{
+    background-color: #05837A;
+    width: 25%;
+    height: 100px;
+    float: left;
+}
+.menu{
+    background-color: #05837A;
+}
+.clear{
+    clear: both;
+}
+.gauche{
+    background-color: brown;
+    text-align: center;
+    float: left;
+    height: 500px;
+    width: 25%;
+}
+.a{
+    background-color: cadetblue;
+    width: 37.5%;
+    height: 250px;
+    float: left;
+}
+.b{
+    background-color:coral;
+    width: 37.5%;
+    height: 250px;
+    float: left;
+}
+.s{
+    background-color: cyan;
+    float: left;
+    width: 75%;
+    height: 100px;
+}
+.d{
+    background-color:darkgrey;
+    width: 18.7%;
+    height: 150px;
+    float: left;
+}
+.c{
+     background-color:darksalmon;
+     width: 18.7%;
+     height: 150px;
+     float: left;
+}
+.e{
+    background-color:darkturquoise;
+    width: 18.7%;
+    height: 150px;
+    float: left;
+}
+.f{
+    background-color:dimgrey;
+    width: 18.7%;
+    height: 150px;
+    float: left;
+}
+.bas{
+    background-color: fuchsia;
+    float: left;
+    width: 99.8%;
+    height: 100px;
+}

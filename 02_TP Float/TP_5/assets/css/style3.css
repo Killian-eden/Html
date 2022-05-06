@@ -1,0 +1,31 @@
+.zonning1{
+    background-color: #DFDFE0;
+    height: 968px;
+    width: 70%;
+    margin: 0 auto;
+}
+.bas{
+    background-color: #F6F48D;
+    height: 100px;
+    width: 75%;
+    margin: 0 auto;
+    float: left;
+    margin-left: 12.6%;
+}
+.z1{
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+.gauche{
+    background-color: #90E177;
+    margin-left: 12.6%;
+    width: 20%;
+    height: 700px;
+    float: left;
+}
+.droite{
+    background-color: crimson;
+    width: 54.9%;
+    float: left;
+    height: 700px;
+}

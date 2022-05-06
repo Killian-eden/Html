@@ -1,0 +1,27 @@
+h2, h1{
+    text-align: center;
+}
+
+
+div{
+    padding: 2%;
+    margin:2%;
+    text-align: center;
+}
+
+.div1{
+    background-color: #db6060;    
+}
+.div2{
+    background-color: #f0f072;
+}
+.div3{
+    background-color: #86dd86;
+}
+#float > .float{
+    float:left; /* flotter à gauche du conteneur */
+}
+
+.clearfix{
+    clear: both;
+}

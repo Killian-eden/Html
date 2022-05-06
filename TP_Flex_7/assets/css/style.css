@@ -1,0 +1,17 @@
+h1, h2{
+    text-align: center;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.un, .deux{
+    display: flex;
+    width: 24%;
+    flex-direction: column;
+}
+.un img, .deux img{
+    margin-top: 15px;
+}

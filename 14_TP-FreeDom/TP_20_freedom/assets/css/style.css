@@ -1,0 +1,38 @@
+table{
+    text-align: center;
+    border-collapse: collapse;
+    float: left;
+    width: 15%;
+    margin-top: 150px;
+    height: 500px;
+}
+td{
+    border: 2px solid lightgray;
+}
+.titre{
+    background-color: gray;
+    color: white;
+}
+.nocenter{
+    text-align: left;
+    border-left: 2px solid lightgray;
+
+}
+.hover:hover{
+    transform: perspective(800px)  translateZ(300px);
+    background-color: grey;
+}
+.vide{
+    height: 84px;
+    border: none;
+}
+.hover:hover .titre{
+    background-color: black;
+}
+.clear{
+    clear: both;
+}
+.maps{
+    margin: 150px;
+    margin-left: 250px;
+}

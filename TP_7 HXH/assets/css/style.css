@@ -1,0 +1,56 @@
+body{
+    background-image: url(../img/fond.png);
+}
+.header{
+    background-color: #27032D;
+    width: 70%;
+    margin: 0 auto;
+}
+#logo{
+    height: 100px;
+    width: 250px;
+    padding: 25px;
+}
+
+h2{
+    margin-right: 70px;
+    padding-top: 38px;
+    color: white;
+    float: right;
+}
+.body{
+    background-color: white;
+    width: 70%;
+    height:1000px;
+    margin: 0 auto;
+}
+.titre{
+    color: black;
+    margin-top: 0;
+    padding-top: 5%;
+    padding-left: 3%;
+    font-size: 40px;
+}
+.hxh1{
+    width: 25%;
+    height: 170px;
+    padding-left: 3%;
+}
+p{
+    display: inline-block;
+    width: 65%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+ul{
+    padding-left: 10%;
+}
+button{
+   background-color: #27032D; 
+   color: white;
+   border: none;
+   padding: 10px;
+   float: right;
+   margin-top: 15px;
+   margin-right: 100px;
+}

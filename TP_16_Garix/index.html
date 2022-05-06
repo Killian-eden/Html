@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bases Html-CSS</title>
+        <!-- Css Vendor / librairie -->
+        <link rel="stylesheet" href="assets/css/normalize.css">
+        <script src="https://kit.fontawesome.com/dab5cd1486.js" crossorigin="anonymous"></script>
+        <!-- Css perso -->
+            <link rel="stylesheet" href="assets/css/base.css">
+            <link rel="stylesheet" href="assets/css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <h1>TP tableau</h1>
+        </header>
+        <main>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="grey">votre travail</th>
+                        <th class="blue">salaire</th>
+                        <th class="grey">votre maison</th>
+                        <th class="blue">l'animal de compagnie</th>
+                        <th class="grey">votre pays</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="bottom">
+                        <td>Développeur</td>
+                        <td>2000€</td>
+                        <td>2 chambres || 3 pièces</td>
+                        <td>chat</td>
+                        <td>La France</td>
+                    </tr>
+                    <tr class="grey bottom">
+                        <td>Maçon</td>
+                        <td>1200€</td>
+                        <td>5 chambres || 10 pièces</td>
+                        <td>chien</td>
+                        <td>Portugal</td>
+                    </tr>
+                    <tr class="bottom">
+                        <td>pizzaiolo</td>
+                        <td rowspan="2">800€</td>
+                        <td>2 chambres || 1 pièces</td>
+                        <td>hamster</td>
+                        <td>Italie</td>
+                    </tr>
+                    <tr class="grey2">
+                        <td id="maj">paella pepito</td>
+                        <td>1 chambres || 1 pièces</td>
+                        <td>souris</td>
+                        <td>Espagne</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th class="grey">votre travail</th>
+                        <th class="blue">salaire</th>
+                        <th class="grey">votre maison</th>
+                        <th class="blue">l'animal de compagnie</th>
+                        <th class="grey">votre pays</th>
+                    </tr>
+                </tfoot>
+            </table>
+        </main>
+    </body>
+</html>

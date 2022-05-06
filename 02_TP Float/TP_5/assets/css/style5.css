@@ -1,0 +1,74 @@
+.zonning1{
+    background-color: #DFDFE0;
+    height: 968px;
+    width: 70%;
+    margin: 0 auto;
+}
+.haut{
+    background-color: #F6F48D;
+    height: 700px;
+    width: 75%;
+    margin: 0 auto;
+}
+.z1{
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+.bas{
+    background-color: darkblue;
+    height: 100px;
+}
+.nav{
+    background-color: crimson; 
+    width: 99.8%;
+    margin: 0 auto;
+    height: 76%;
+    margin-top: 5%;
+}
+.bande{
+    background-color: blue;
+    color: blue;
+    margin-top: 1%;
+}
+.blanc{
+    background-color: white;
+    height: 100%;
+    margin-bottom: 50%;
+}
+.z4{
+    background-color: teal;
+    float: left;
+    width: 47%;
+    height: 30%;
+    margin:  auto;
+    margin-right: 20px;
+
+}
+.z2{
+    background-color: thistle;
+    float: left;
+    width: 47%;
+    height: 30%;
+    margin:  auto;
+    margin-top: 8%;
+    margin-right: 20px;
+
+}
+.z12{
+    background-color: teal;
+    float: left;
+    width: 47%;
+    height: 30%;
+    margin:  auto;
+    margin-top: 8%;
+    margin-left: 20px;
+}
+.z3{
+    background-color: thistle;
+    float: left;
+    width: 47%;
+    height: 30%;
+    margin:  auto;
+    margin-left: 20px;
+
+}

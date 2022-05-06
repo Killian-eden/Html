@@ -1,0 +1,32 @@
+body{
+    font-family: Serif;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.a{
+    font-family: Arial;
+    color: tomato;
+}
+.b{
+    font-family: Arial;
+    color: aquamarine;
+}
+.c{
+    font-family: Arial;
+    color: goldenrod;
+}
+.non{
+    list-style-type: none;
+}
+.ab{
+    font-family: cursive;
+    background-color: tomato;
+}
+.bb{
+    font-family: Cursive;
+    background-color: aquamarine;
+}
+.cb{
+    font-family: cursive;
+    background-color: goldenrod;
+}

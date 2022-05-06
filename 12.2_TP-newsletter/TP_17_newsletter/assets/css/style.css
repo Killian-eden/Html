@@ -1,0 +1,30 @@
+table{
+    width: 100%;
+}
+thead img{
+    width: 50%;
+}
+tbody #loin{
+    color: grey;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+tbody img{
+    display: block;
+    margin: 0 auto;
+}
+#img1{
+    width: 50%;
+}
+#img2{
+    width: 25%;
+    padding-top: 30px;
+}
+a{
+    text-decoration: revert;
+    display: block;
+    text-align: center;
+    padding-top: 100px;
+}
