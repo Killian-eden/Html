@@ -8,7 +8,7 @@ section{
     grid-template-columns: 1fr 1fr;
     column-gap: 5%;
     row-gap: 1%;
-    padding: 5%;
+    padding: 2%;
     background-color: #FCFCFC;
 }
 img{
@@ -28,7 +28,7 @@ button{
     background-color: var(--btn-color);
     width: var(--btn-width);
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 15px;
     padding: 5% 0 5% 0;
 }
 article:first-of-type{
@@ -37,4 +37,42 @@ article:first-of-type{
 }
 article{
     background-color: white;
+    box-shadow: 0 0 10px black;
+}
+
+@media screen and (min-width: 776px) and (max-width: 991px) {
+    section{
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    article:first-of-type{
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    button{
+        margin-bottom: 50px;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    section{
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 3%;
+    }
+    article:first-of-type{
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+}
+@media screen and (min-width: 1200px) {
+    section{
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 3%;
+        grid-row-gap: 3%;
+    }
+    article:first-of-type{
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
 }
